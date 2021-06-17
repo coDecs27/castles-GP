@@ -1,7 +1,11 @@
- <ul>
-  <li><%= link_to 'Startseite', root_path %></li>
-  <li><%= link_to 'Hohenrechberg', hohenrechberg_path %></li>
-  <li><%= link_to 'Hohenstaufen', hohenstaufen_path %></li>
-  <li><%= link_to 'Rosenstein', rosenstein_path %></li>
-  <li><%= link_to 'Reußenstein', reussenstein_path %></li>
+ <ul class="nav-ul">
+  <div class="container">
+    <div class="nav">
+      <li class="nav-li"><%= link_to 'Startseite', root_path, class: "nav-element" %></li>
+      <li class="nav-li"><%= link_to 'Hohenrechberg', hohenrechberg_path, class: "nav-element" %></li>
+      <li class="nav-li"><%= link_to 'Hohenstaufen', hohenstaufen_path, class: "nav-element" %></li>
+      <li class="nav-li"><%= link_to 'Rosenstein', rosenstein_path, class: "nav-element" %></li>
+      <li class="nav-li"><%= link_to 'Reußenstein', reussenstein_path, class: "nav-element" %></li>
+    </div>
+  </div>
 </ul>

@@ -3,6 +3,11 @@
   color: black;
   flex-basis: 48%;
   margin-bottom: 30px;
+
+  &:hover {
+    transform: scale(1.01);
+    transition: transform 0.2s ease-out;
+  }
 }
 
 .cards-container {
@@ -18,8 +23,14 @@
 
 .card-text {
   padding: 16px 16px 0px 16px;
+}
 
-  h4 {
-    font-weight: bold;
+.stretched-link {
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+
+  &:hover {
+    color: black;
   }
 }

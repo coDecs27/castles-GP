@@ -22,7 +22,16 @@ body {
   width: 100%;
 }
 
-.frontpage-header {
-  text-align: center;
-  margin-bottom: 24px;
+.frontpage-text {
+  margin: 40px 0px;
+
+  h3 {
+    text-align: center;
+    margin-bottom: 24px;
+    font-size: 36px;
+  }
+
+  p {
+    font-size: 22px;
+  }
 }

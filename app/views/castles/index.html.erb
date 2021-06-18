@@ -2,17 +2,16 @@
   <%= image_tag("frontpage-cover.jpg") %>
 </div>
 
-<br>
-
-<div class="frontpage-header">
-<h3>Entdecke historische Burgen und Burgruinen rund um Göppingen</h3>
+<div class="frontpage-text">
+  <h3>Entdecke historische Burgen und Burgruinen rund um Göppingen</h3>
+  <p>Alte Schlösser und Burgen sind immer etwas ganz Besonderes, egal, ob du auf deiner Wanderung zufällig über eine verfallene Ruine stolperst oder auf einem geführten Rundgang eine stolze Festung erkundest. Im Raum Göppingen findest du einige schöne Burgen und Burgruinen: Hier wollen wir dir vier davon vorstellen. Viel Spaß beim selber Erkunden!</p>
 </div>
 
 <div class="cards-container">
   <div class="card" style="width: 24rem;">
     <%= image_tag("hohenrechberg_1.jpg", :class => "card-size") %>
     <div class="card-text">
-      <h4>Burg Hohenrechberg</h4>
+      <%= link_to 'Burg Hohenrechberg', hohenrechberg_path, class: "stretched-link" %>
       <p>Die Burg Hohenrechberg, auch „Hohen-Rechberg“ geschrieben, ist die Ruine einer mittelalterlichen Spornburg südlich von Schwäbisch Gmünd, in der Nähe des Stadtteils Rechberg im Ostalbkreis.</p>
     </div>
   </div>
@@ -20,7 +19,7 @@
   <div class="card" style="width: 24rem;">
     <%= image_tag("hohenstaufen_4.jpg", :class => "card-size") %>
     <div class="card-text">
-    <h4>Ruine Hohenstaufen</h4>
+    <%= link_to 'Ruine Hohenstaufen', hohenstaufen_path, class: "stretched-link" %>
       <p>Die Burg Hohenstaufen ist die Ruine einer mittelalterlichen Gipfelburg oberhalb des Ortes Hohenstaufen, eines Stadtteils von Göppingen. Sie liegt auf dem Gipfel des Hohenstaufen in 684 m ü. NN Höhe.</p>
     </div>
   </div>
@@ -28,7 +27,7 @@
   <div class="card" style="width: 24rem;">
     <%= image_tag("rosenstein_1.png", :class => "card-size") %>
     <div class="card-text">
-    <h4>Ruine Rosentein</h4>
+    <%= link_to 'Ruine Rosenstein', rosenstein_path, class: "stretched-link" %>
       <p>Die Burg Rosenstein ist die Ruine einer Höhenburg rund 1500 Meter östlich von der Stadt Heubach im Ostalbkreis.</p>
     </div>
   </div>
@@ -36,10 +35,8 @@
   <div class="card" style="width: 24rem;">
     <%= image_tag("reussenstein_2.jpg", :class => "card-size") %>
     <div class="card-text">
-      <h4>Ruine Reußenstein</h4>
+      <%= link_to 'Ruine Reußenstein', reussenstein_path, class: "stretched-link" %>
       <p>Die Burg Reußenstein ist die Ruine einer Felsenburg oberhalb von Neidlingen exakt auf der Grenze des Landkreises Esslingen und Göppingen.</p>
     </div>
   </div>
 </div>
-
-<br>

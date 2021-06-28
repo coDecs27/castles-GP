@@ -2,7 +2,7 @@
   list-style-type: none;
   margin: 0;
   padding: 0;
-  background-color: black;
+  background-color: #808080;
   text-align: center;
 }
 
@@ -21,4 +21,9 @@
 .nav-element {
   text-decoration: none;
   color: white;
+
+  &:hover {
+    color: #fffafa;
+    font-weight: bold;
+  }
 }
